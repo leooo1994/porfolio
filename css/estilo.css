@@ -1,0 +1,285 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+    font-size: 36px;
+    color: #e20000;
+}
+
+p {
+    font-size: 16px;
+    color: #6a6a6a;
+}
+
+input , textarea{
+    border-radius: 15px;
+}
+
+#contacto {
+    background-image: url(../images/Imagenes/fondo-contacto.png);
+    background-size: 100%;
+    
+}
+
+.nav-link {
+    color: #282828;
+}
+
+nav .active {
+    border-radius: 20px;  
+ border: solid 1px; color: #e20000;
+}
+
+.btn {
+    background-color: #370a6d;
+    color: white;
+    border-radius: 15px;
+}
+.btn:hover {
+    background-color: white;
+    color: #370a6d;
+}
+
+footer , footer a {
+    color: white;
+    font-weight: 100;
+}
+
+.whatsapp a{
+    color: white;
+}
+.whatsapp {
+    background-color: #370a6d;
+    color: white;
+    width: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding: 8px 0 15px 0;
+    right: 80px;
+    position: fixed;
+    bottom: 0px;
+}
+
+@media (max-width: 750px) {/* Para mobile */
+    #inicio, #contacto {
+        background-image: url(../images/fondo-proyectos.png);
+    }
+    #inicio .input-home p {
+        color: #E20000;
+        border: 1px solid #E20000;
+    }
+    #contacto {
+        background-image: url(../images/fondo-proyectos.png);
+    }
+    footer a{
+    color: #E20000;
+}
+}
+
+#contacto  {
+    background-image: url("../images/Imagenes/fondo-proyectos.png");
+}
+
+.fa-bars{
+    padding: 10px;
+    border-radius: 5px;
+}
+.navbar-toggler {
+     color: #ff4a49;
+    border: 1px solid #ff4a49;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+    background-color: #370a6d;
+    color: white;
+    border: 1px solid white;
+}
+
+#proyectos {
+    background-image: url("..//images/Imagenes/fondo-proyectos.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.color-gradiente {
+    background: rgba(184,37,20,1);
+    background: -moz-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(184,37,20,1)), color-stop(47%, rgba(214,52,30,1)), color-stop(70%, rgba(240,47,23,1)), color-stop(100%, rgba(240,47,23,1)));
+    background: -webkit-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -o-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: -ms-linear-gradient(left, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b82514', endColorstr='#f02f17', GradientType=1 );
+}
+
+#proyectos img{
+    height: 210px;
+    background-color: white;
+    padding: 0px;
+}
+.bloque p{
+    height: 90px;
+}
+
+footer , footer a {
+color: red
+
+
+}
+footer .fa-github{
+    font-size: 30px;
+    color: red
+}
+footer .fa-linkedin-in{
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+
+.btn-rojo {
+    background-color: #E20000;
+    color: white;
+    font-weight: 100;
+    border-radius: 15px;
+}
+.btn-rojo:hover {
+    background-color: #370a6d;
+    color: white
+}
+
+.link-rojo a {
+    color: #E20000;
+    text-decoration: none;
+}
+
+#inicio {
+    background-image: url("..//images/Imagenes/fondo-contacto\ -\ copia.png");
+    background-size: 105%;
+    background-repeat: no-repeat;
+}
+}
+
+#inicio .div-cohete{
+    height: 410px;
+}#inicio .cohete{
+    height: 400px;
+}
+#inicio .cohete:hover{
+    height: 410px;
+}
+#inicio .input-home p{
+    color:white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.form-control {
+    display: block;
+    width: 90%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+input, textarea, .btn {
+    border-radius: 12px !important;
+}
+
+textarea {
+    height: 150px;
+}
+
+
+
+#sobre-mi{
+    background-image: url(../images/Imagenes/fondo-proyectos.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.img-circle {
+    margin: 1em auto;
+    display: block;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+#sobre-mi .card{
+    height: 182px;
+}
+#idiomas .card-idioma{
+    border-radius: 15px;
+}
+#idiomas .card{
+    background-color: #370A6D;
+    border-radius: 15px;
+    padding: 40px 0;
+}
+#idiomas{
+    background-color: #eee;
+}
+#idiomas h2{
+    font-size: 16px;
+    font-weight: 600px;
+}
+#idiomas ul{
+    padding: 0px;
+    font-size: 14px;
+    color: #282828;
+    list-style-type: none;
+}
+#idiomas .fas{
+    font-size: 80px;
+    color: white;
+}
+#experiencia h2, #experiencia h4 {
+   color: #370A6D;
+}
+#experiencia h2, #formacion h2 {
+    font-weight: 400;
+    font-size: 24px
+}
+#formacion h2, #formacion h4{
+    color: #E20000;
+}
+#experiencia h3, #formacion h3{
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+#experiencia h4, #formacion h4{
+    font-size: 17px;
+    
+}
+#experiencia h5, #formacion h5{
+    color: #6A6A6A;
+    font-size: 14px;
+}
