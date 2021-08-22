@@ -29,7 +29,7 @@
     <main class="conteiner">
         <div class="row">
             <div class="col-12 py-5 px-5">
-                <h1>Contactttoo</h1>
+                <h1>Contacto</h1>
 
             </div>
 
